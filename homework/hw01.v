@@ -22,7 +22,7 @@ Compute orb_my false x.
 (** 1b. Figure out the implementation of [orb] function in the standard library
         using Coq's interactive query mechanism *)
 
-
+Print orb.
 
 Compute orb x true.
 Compute orb true x.
@@ -47,8 +47,8 @@ Compute orb_table true x.
 Compute orb_table x false.
 Compute orb_table false x.
 
-(*Difference is that we always need x value in the last realisation to calculate the result of function*)
-
+(*Answer: Difference is that we always need x value in the last realisation to calculate the result of function*)
+Print orb_table.
 (** Note: the above translates into nested pattern-matching, check this *)
 
 
