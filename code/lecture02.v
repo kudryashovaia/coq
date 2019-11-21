@@ -324,6 +324,8 @@ move=> hAiBiC hAiB hA.
 move: hAiBiC.
 apply.
 - by [].
+(*move: hAiB.
+by apply.*)
 by apply: hAiB.
 Qed.
 
